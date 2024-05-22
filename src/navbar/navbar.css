@@ -63,12 +63,12 @@
 
 
 .navbarItems:hover{
-    color: #28BDFF;
+    color: yellow;
     cursor: pointer;
 }
 
 .navbarItemsRanking:hover{
-    color: #28BDFF;
+    color: yellow;
     cursor: pointer;
 }
 

@@ -22,8 +22,6 @@ function App() {
         <Separator/>
         <About/>
         <Separator/>
-        <Ranking/>
-        <Separator/>
         <Galienomics/>
         <Separator/>
       </div>

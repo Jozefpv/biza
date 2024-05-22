@@ -8,36 +8,38 @@ import Snowfall from 'react-snowfall';
 function Wrapper() {
 
     const snowflake1 = document.createElement('img')
-    snowflake1.src = "https://storage.googleapis.com/bittenbtcbucket/Untitled_Artwork%20(1).png"
+    snowflake1.src = "https://storage.googleapis.com/bittenbtcbucket/Pizza%20Day.png"
     const snowflake2 = document.createElement('img')
-    snowflake2.src = "https://storage.googleapis.com/bittenbtcbucket/Untitled_Artwork%20(1).png"
+    snowflake2.src = "https://storage.googleapis.com/bittenbtcbucket/Pizza%20Day.png"
 
     const images = [snowflake1, snowflake2]
     return (
         <div className="wrapper">
             <div className='snow'>
                 <Snowfall
-                    style={{ backgroundColor: "transparent"}}
+                    style={{ backgroundColor: "transparent" }}
                     snowflakeCount={10}
                     images={images}
                     radius={[50, 180.0]}
                 />
             </div>
-            <div className='section_hero'>
-                <div className='block_chara'>
-                    <img src="https://storage.googleapis.com/bittenbtcbucket/COIN%20PNG%20(1).png" className='galien'></img>
-                </div>
-                <div className='block_logo'>
-                    <div className='titleContainer'>
-                        <img src="https://storage.googleapis.com/bittenbtcbucket/COIN%20PNG%20(1).png"  className='galienCoin' alt="Alien Fumeta" />
-                        <span className='coinTitle'>BITcoin</span>
-                    </div>
-                    <div>
-                        <Flappy store={store} updateFrame={updateFrame} game={game} />
-                    </div>
-                </div>
-            </div>
 
+            <div className='block_logo'>
+                <div className='titleContainer'>
+                    <div>
+                        <span className='coinTitle'>BIZA</span>
+                    </div>
+                    <div className='coinBlock'>
+                        <div style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
+                            <span>Good pizza</span>
+                            <span>for just</span>
+                            <span>10,000 BTC</span>
+                        </div>
+                        <img src="https://storage.googleapis.com/bittenbtcbucket/Pizza%20Day.png" className='galienCoin' alt="Alien Fumeta" />
+                    </div>
+                </div>
+
+            </div>
         </div>
     )
 }

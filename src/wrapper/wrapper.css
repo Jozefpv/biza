@@ -5,11 +5,11 @@
     z-index: 1;
     flex-direction: column;
     position: relative;
-    background-image: url("https://storage.googleapis.com/bittenbtcbucket/IMG_0062%20(1).PNG");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    z-index: 5; /* Ajusta esto si es necesario */
+    z-index: 5;
     position: relative;
+    background-color: #ffb001;
   
 }
 
@@ -22,26 +22,19 @@
     justify-content: flex-start;
 }
 
-.block_chara {
-    width: 40%;
-    justify-content: center;
-    align-items: flex-end;
-    display: flex;
-}
-
 .block_logo {
     justify-content: center;
     align-items: center;
     display: flex;
-    width: 60%;
+    width: 100%;
     flex-flow: column;
-    padding: 10% 10% 10% 10%;
-    transform: translateX(-35px);
+    height: 100vh;
 }
 
 .titleContainer {
-    color: #FEC618;
+    color: yellow;
     display: flex;
+    flex-direction: column;
     align-items: center;
     width: 100%;
     justify-content: center;
@@ -49,10 +42,12 @@
     font-weight: bold;
     font-size: 10vw;
     letter-spacing: 10px;
+    position: relative;
+    z-index: 6;
 }
 
 .coinTitle {
-    text-shadow: 2px 2px #000;
+    text-shadow: 3px 3px #e46840;
 }
 
 
@@ -62,12 +57,10 @@
     position: absolute;
     width: 40%;
     max-width: 800px;
-
-
 }
 
 .galienCoin {
-    width: 150px;
+    width: 300px;
 }
 .snow {
     pointer-events: none;
@@ -80,11 +73,24 @@
 
   }
 
-  @media screen and (max-width: 700px) {
+  .coinBlock{
+    display: flex;
+    align-items: center;
+    font-size: 5vw !important;
+    font-family: "Londrina Solid", sans-serif;
+    letter-spacing: 0px;
+    gap: 10px;
+    text-shadow: 2px 2px #e46840;
+    
+
+
+  }
+
+  /* @media screen and (max-width: 700px) {
     .snow{
         height: 125vh;
     }
-}
+} */
 
 @media screen and (min-width: 1080px) {
     .titleContainer {
@@ -93,30 +99,25 @@
 }
 
 @media screen and (max-width: 700px) {
-    .wrapper {
-        flex-direction: row;
-        background-image: url("https://storage.googleapis.com/bittenbtcbucket/Fondo%20movil.png");
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-    }
 
     .block_logo {
         margin-top: 30px;
     }
 
     .galienCoin {
-        width: 20vw;
-    }
-
-    .wrapper {
-        height: 125vh;
+        width: 150px;
     }
 
     .titleContainer {
         font-family: "Londrina Solid", sans-serif;
         text-shadow: 2px 2px #000;
         letter-spacing: 2px;
-        font-size: 75px;
+        font-size: 100px;
+    }
+
+    .coinBlock{
+        flex-direction: column-reverse;
+        font-size: 50px !important;
     }
 
     
