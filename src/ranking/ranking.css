@@ -1,0 +1,71 @@
+.rankingTitle {
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 75px;
+    color: #FEC618;
+    text-shadow: 2px 2px #000;
+    letter-spacing: 2px;
+
+}
+
+.tableContainer {
+    background-color: white;
+    border: 3px solid black;
+    border-width: 3px 6px 6px 3px;
+    border-radius: 10px;
+    font-family: "Londrina Solid", sans-serif;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.rankingTable {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+.rankingContainer {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+.alienDolar{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 40%;
+}
+
+.rankingSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table tr {
+    border-bottom: 2px solid #000000;
+}
+
+table td {
+    padding: 8px;
+    text-align: left;
+}
+
+
+@media screen and (min-width: 1080px) {
+    .tableContainer {
+      width: 100%; 
+    }
+  }
+  

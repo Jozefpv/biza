@@ -1,0 +1,29 @@
+
+.separator_blue{
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+
+    width: 100%;
+    height: 50px;
+    background-color: #FEC618;
+    border-top: 3px solid #000;
+    border-bottom: 0 solid #000;
+    position: relative;
+}
+
+.separator_in{
+    width: 100%;
+    height: 40%;
+    background-color: #BD9F47;
+
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+}
+
+.separator_in2{
+    width: 100%;
+    height: 50%;
+    background-color: #28BDFF;
+}

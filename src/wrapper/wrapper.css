@@ -1,0 +1,123 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    z-index: 1;
+    flex-direction: column;
+    position: relative;
+    background-image: url("https://storage.googleapis.com/bittenbtcbucket/IMG_0062%20(1).PNG");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 5; /* Ajusta esto si es necesario */
+    position: relative;
+  
+}
+
+.section_hero {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.block_chara {
+    width: 40%;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+}
+
+.block_logo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 60%;
+    flex-flow: column;
+    padding: 10% 10% 10% 10%;
+    transform: translateX(-35px);
+}
+
+.titleContainer {
+    color: #FEC618;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: bold;
+    font-size: 10vw;
+    letter-spacing: 10px;
+}
+
+.coinTitle {
+    text-shadow: 2px 2px #000;
+}
+
+
+.galien {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 40%;
+    max-width: 800px;
+
+
+}
+
+.galienCoin {
+    width: 150px;
+}
+.snow {
+    pointer-events: none;
+    background-color: transparent;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+
+  }
+
+  @media screen and (max-width: 700px) {
+    .snow{
+        height: 125vh;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .titleContainer {
+        font-size: 125px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .wrapper {
+        flex-direction: row;
+        background-image: url("https://storage.googleapis.com/bittenbtcbucket/Fondo%20movil.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .block_logo {
+        margin-top: 30px;
+    }
+
+    .galienCoin {
+        width: 20vw;
+    }
+
+    .wrapper {
+        height: 125vh;
+    }
+
+    .titleContainer {
+        font-family: "Londrina Solid", sans-serif;
+        text-shadow: 2px 2px #000;
+        letter-spacing: 2px;
+        font-size: 75px;
+    }
+
+    
+}

@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.scoreContainer{
+  font-family: "Londrina Solid", sans-serif;
+  font-size: 18px;
+  color: #FEC618;
+}
+.urlLink{
+  margin:10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 3px solid black;
+  border-width: 3px 6px 6px 3px;
+  border-radius: 10px;
+  font-family: "Londrina Solid", sans-serif;
+}
+
+  .scoreForm{
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 3px solid black;
+    border-width: 3px 6px 6px 3px;
+    border-radius: 10px;
+    font-family: "Londrina Solid", sans-serif;
+  }
+
+  .caCode{
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .inputWallet{
+    border: none;
+    padding: 5px;
+  }
+
+  .scoreText{
+    font-family: "Londrina Solid", sans-serif;
+    padding: 5px;
+  }
+
+  .buttonSendScore{
+    cursor: pointer;
+    font-family: "Londrina Solid", sans-serif;
+  }
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+#fakingcanvas {
+	border: 1px solid #000;
+  overflow: hidden;
+  position: relative;
+  background-color: #70C5CF;
+}

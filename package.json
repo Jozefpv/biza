@@ -1,0 +1,33 @@
+{
+  "homepage": "https://galiens.xyz",
+  "name": "galiens-proyect",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "react-scripts": "0.4.1"
+  },
+  "dependencies": {
+    "mobx": "^6.4.1",
+    "mobx-react": "^9.1.1",
+    "react": "^17.0.2",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^17.0.2",
+    "react-icons": "^5.1.0",
+    "react-scroll": "^1.9.0",
+    "react-snowfall": "^1.2.1",
+    "react-toast-notifications": "^2.5.1",
+    "react-tooltip": "^5.25.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/react-scripts/config/eslint.js"
+  }
+}

@@ -1,0 +1,85 @@
+.navbar-container{
+    height: auto;
+    background-color: transparent;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 18px;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.navbar{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    height: 70px;
+    border: 3px solid black; 
+    border-width: 3px 6px 6px 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.navbarItemsContainer{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Londrina Solid", sans-serif;
+}
+
+
+.rrssContainer{
+    font-weight: bold;
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    gap: 10px
+}
+
+.rrssButton{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black; 
+    border-width: 1px 3px 3px 1px;
+
+}
+
+.rrssButton:hover{
+    border-width: 3px 1px 1px 3px;
+    cursor: pointer;
+}
+
+
+.navbarItems:hover{
+    color: #28BDFF;
+    cursor: pointer;
+}
+
+.navbarItemsRanking:hover{
+    color: #28BDFF;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    .navbarItems {
+      display: none;
+    }
+
+    .navbar{
+        width: 95%;
+    }
+  }
+
+
